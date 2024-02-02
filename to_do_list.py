@@ -14,6 +14,11 @@ def to_do_list():
                 # phone()
                 # break try using return instead of break
                 return myToDoList
+            case "exit":
+                print("Returning Home")
+                # phone()
+                # break try using return instead of break
+                return myToDoList
             case _:
                 print(f"Adding {user_input} to list")
                 myToDoList.append(user_input)
