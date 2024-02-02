@@ -36,7 +36,7 @@ def google_search():
         raise ValueError("Not a valid choice.")
     
 
-# def google_search():
+# def google_search2():
 #     user_choice = input("Would you like to search something (Y/N)? ")
 #     if user_choice != "Y" and user_choice != "N":
 #         raise ValueError("Not a valid choice.")
@@ -48,4 +48,4 @@ def google_search():
 #                 print(elem)
 
 # google_search()
-open_browser()
+# open_browser()
